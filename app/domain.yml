@@ -1,0 +1,46 @@
+intents:
+  - greet
+  - goodbye
+  - help
+  - services
+  - budget
+  - meet
+  - bot
+
+responses:
+  utter_greet:
+  - text: "¡Bienvenid@! Escribe sobre lo que quieras saber:"
+
+  utter_greet_services:
+    - text:  "- Servicios"
+
+  utter_greet_pres:
+    - text:  "- Presupuesto"
+
+  utter_greet_meet:
+    - text:  "- Cónocenos"
+
+  utter_help:
+    - text: "¿Has pedido ayuda? Para iniciar el chat escribe: hola"
+
+  utter_goodbye:
+    - text: "¡Hasta pronto!"
+
+  utter_services:
+    - text: "Nuestro servicios van desde el desarrollo web hasta el marketing digital,
+    haz click en este enlace para saber más: https://newdigitalnormality.com/services.php"
+
+  utter_budget:
+    - text: "¿Quieres contratar nuestros servicios?
+    Elige entre todo lo que ofrecemos desde este enlace: https://newdigitalnormality.com/web-detail.php"
+
+  utter_meet:
+    - text: "En NDN somos especialistas en soluciones digitales.
+    Lleva tu negocio al siguiente nivel, descubre más sobre nosotros en: https://newdigitalnormality.com/about.php"
+
+  utter_iamabot:
+  - text: "Hola! Soy un chatbot desarrollado con IA y estoy aquí para ayudarte."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
